@@ -98,3 +98,25 @@ body{
     top: 100px;
     background-color: burlywood;
 }
+/* Media Query para tamaños de pantalla más pequeños */
+@media (max-width: 768px) {
+    .card {
+        width: 80%; /* Cambia el ancho para tamaños pequeños */
+        left: 10px; /* Cambia la posición horizontal */
+    }
+
+    .block {
+        right: 10px; /* Cambia la posición horizontal */
+    }
+
+    /* Otros ajustes necesarios para pantallas más pequeñas */
+}
+
+/* Media Query para tamaños de pantalla medianos */
+@media (max-width: 1024px) {
+    .card {
+        /* Ajustes específicos para tamaños medianos */
+    }
+
+    /* Otros ajustes necesarios para pantallas medianas */
+}
